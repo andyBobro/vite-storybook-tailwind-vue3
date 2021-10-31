@@ -1,0 +1,41 @@
+{
+  "name": "vite-storybook-tailwind-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^2.4.0",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "glob": "^7.1.7",
+    "vue": "^3.2.6",
+    "vue-i18n": "^9.1.7",
+    "vue-router": "^4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/vue3": "^6.3.8",
+    "@tailwindcss/jit": "^0.1.18",
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.6",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "postcss": "8.3.0",
+    "postcss-loader": "^4.2",
+    "sass": "1.33.0",
+    "sass-loader": "10.1.1",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.5.2",
+    "vite-plugin-restart": "^0.0.2",
+    "vue-loader": "^16.5.0"
+  }
+}

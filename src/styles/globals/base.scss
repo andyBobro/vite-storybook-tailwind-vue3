@@ -1,0 +1,48 @@
+* {
+  @apply box-border;
+}
+
+html,
+body {
+  @apply min-h-screen w-full;
+  &[data-overflow-hidden],
+  &[data-overflow-hidden="true"] {
+    overflow: hidden;
+  }
+}
+
+body {
+  @apply text-base font-normal;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app,
+.app-main {
+  @apply min-h-screen w-full;
+}
+
+p {
+  @apply text-base;
+}
+
+b {
+  @apply font-bold;
+}
+
+small {
+  @apply text-xs;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h3 {
+  @apply text-2xl font-bold;
+}
+
+h6 {
+  @apply text-xl;
+}
