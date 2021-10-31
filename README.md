@@ -7,6 +7,7 @@ Features:
 - tailwind
 - i18n
 - vite
+- sprite icon system with automatic add new icons
 
 Get started:
 
